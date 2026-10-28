@@ -1,0 +1,91 @@
+District,Season,Leading_Irrigation_Method,Method_Percentage,Leading_Water_Source,Water_Source_Percentage,Method_Data_Status,Water_Source_Data_Status,Method_Leader_Varies_Across_Seasons,Water_Source_Leader_Varies_Across_Seasons
+Bugesera,A,Surface irrigation,38.46,Lake / streams,86.54,Positive reported values available,Positive reported values available,Yes,No
+Bugesera,B,Traditional techniques,35.48,Lake / streams,80.95,Positive reported values available,Positive reported values available,Yes,No
+Bugesera,C,Traditional techniques,65.62,Lake / streams,66.67,Positive reported values available,Positive reported values available,Yes,No
+Burera,A,Traditional techniques,100.0,Lake / streams,66.67,Positive reported values available,Positive reported values available,No,Yes
+Burera,B,Traditional techniques,100.0,Lake / streams,50.0,Positive reported values available,Positive reported values available,No,Yes
+Burera,C,Traditional techniques,100.0,Underground,71.43,Positive reported values available,Positive reported values available,No,Yes
+Gakenke,A,Traditional techniques,50.0,Lake / streams,78.57,Positive reported values available,Positive reported values available,No,Yes
+Gakenke,B,Traditional techniques,60.0,Lake / streams,80.0,Positive reported values available,Positive reported values available,No,Yes
+Gakenke,C,Traditional techniques,100.0,Underground,40.0,Positive reported values available,Positive reported values available,No,Yes
+Gasabo,A,Traditional techniques,71.43,Lake / streams,50.0,Positive reported values available,Positive reported values available,No,Yes
+Gasabo,B,Traditional techniques,73.68,Underground,45.0,Positive reported values available,Positive reported values available,No,Yes
+Gasabo,C,Traditional techniques,93.33,Lake / streams,60.0,Positive reported values available,Positive reported values available,No,Yes
+Gatsibo,A,Traditional techniques,55.32,Lake / streams,44.9,Positive reported values available,Positive reported values available,No,Yes
+Gatsibo,B,Traditional techniques,46.15,Lake / streams,46.15,Positive reported values available,Positive reported values available,No,Yes
+Gatsibo,C,Traditional techniques,93.94,Underground,51.52,Positive reported values available,Positive reported values available,No,Yes
+Gicumbi,A,Traditional techniques,55.56,Underground,61.11,Positive reported values available,Positive reported values available,No,No
+Gicumbi,B,Traditional techniques,85.71,Underground,42.86,Positive reported values available,Positive reported values available,No,No
+Gicumbi,C,Traditional techniques,100.0,Underground,66.67,Positive reported values available,Positive reported values available,No,No
+Gisagara,A,Flood irrigation,54.29,Underground,41.18,Positive reported values available,Positive reported values available,Yes,Yes
+Gisagara,B,Flood irrigation,68.0,Lake / streams,52.0,Positive reported values available,Positive reported values available,Yes,Yes
+Gisagara,C,Traditional techniques,100.0,Underground,63.64,Positive reported values available,Positive reported values available,Yes,Yes
+Huye,A,Traditional techniques,49.12,Underground,70.18,Positive reported values available,Positive reported values available,Yes,No
+Huye,B,Flood irrigation,51.22,Underground,54.17,Positive reported values available,Positive reported values available,Yes,No
+Huye,C,Surface irrigation,50.0,Underground,63.04,Positive reported values available,Positive reported values available,Yes,No
+Kamonyi,A,Traditional techniques,79.49,Lake / streams,62.5,Positive reported values available,Positive reported values available,No,Yes
+Kamonyi,B,Traditional techniques,48.48,Underground,60.61,Positive reported values available,Positive reported values available,No,Yes
+Kamonyi,C,Traditional techniques,92.31,Underground,55.0,Positive reported values available,Positive reported values available,No,Yes
+Karongi,A,Traditional techniques,100.0,Underground,66.67,Positive reported values available,Positive reported values available,No,Yes
+Karongi,B,Traditional techniques,88.89,Lake / streams,44.44,Positive reported values available,Positive reported values available,No,Yes
+Karongi,C,Traditional techniques,69.23,Lake / streams,48.28,Positive reported values available,Positive reported values available,No,Yes
+Kayonza,A,Surface irrigation,40.24,Water catchment,50.0,Positive reported values available,Positive reported values available,Yes,Yes
+Kayonza,B,Traditional techniques,30.36,Water catchment,35.96,Positive reported values available,Positive reported values available,Yes,Yes
+Kayonza,C,Traditional techniques,71.43,Lake / streams,53.33,Positive reported values available,Positive reported values available,Yes,Yes
+Kicukiro,A,Surface irrigation,50.0,Lake / streams,75.0,Positive reported values available,Positive reported values available,No,No
+Kicukiro,B,Surface irrigation,50.0,Lake / streams,72.73,Positive reported values available,Positive reported values available,No,No
+Kicukiro,C,Surface irrigation,100.0,Lake / streams,94.44,Positive reported values available,Positive reported values available,No,No
+Kirehe,A,Traditional techniques,29.63,Lake / streams,60.0,Positive reported values available,Positive reported values available,Yes,No
+Kirehe,B,Surface irrigation,36.36,Lake / streams,63.64,Positive reported values available,Positive reported values available,Yes,No
+Kirehe,C,Traditional techniques,64.86,Lake / streams,75.68,Positive reported values available,Positive reported values available,Yes,No
+Muhanga,A,Traditional techniques,58.82,Lake / streams,59.09,Positive reported values available,Positive reported values available,No,Yes
+Muhanga,B,Traditional techniques,62.5,Underground,50.0,Positive reported values available,Positive reported values available,No,Yes
+Muhanga,C,Traditional techniques,100.0,Lake / streams,52.73,Positive reported values available,Positive reported values available,No,Yes
+Musanze,A,Traditional techniques,91.67,Lake / streams,50.0,Positive reported values available,Positive reported values available,No,Yes
+Musanze,B,Traditional techniques,100.0,Underground,100.0,Positive reported values available,Positive reported values available,No,Yes
+Musanze,C,Traditional techniques,100.0,Lake / streams,50.0,Positive reported values available,Positive reported values available,No,Yes
+Ngoma,A,Flood irrigation,33.33,Underground,38.71,Positive reported values available,Positive reported values available,Yes,No
+Ngoma,B,Flood irrigation,56.25,Underground,55.56,Positive reported values available,Positive reported values available,Yes,No
+Ngoma,C,Traditional techniques,50.0,Underground,44.12,Positive reported values available,Positive reported values available,Yes,No
+Ngororero,A,Traditional techniques,100.0,Underground,71.43,Positive reported values available,Positive reported values available,No,Yes
+Ngororero,B,Traditional techniques,100.0,Water treatment,50.0,Positive reported values available,Positive reported values available,No,Yes
+Ngororero,C,Traditional techniques,100.0,Underground,100.0,Positive reported values available,Positive reported values available,No,Yes
+Nyabihu,A,No positive reported value,,No positive reported value,,No values reported,No values reported,No,No
+Nyabihu,B,No positive reported value,,No positive reported value,,All reported values are zero,All reported values are zero,No,No
+Nyabihu,C,No positive reported value,,Underground,66.67,No values reported,Positive reported values available,No,No
+Nyagatare,A,Traditional techniques,40.0,Lake / streams,59.46,Positive reported values available,Positive reported values available,No,No
+Nyagatare,B,Traditional techniques,57.81,Lake / streams,72.73,Positive reported values available,Positive reported values available,No,No
+Nyagatare,C,Traditional techniques,58.33,Lake / streams,50.0,Positive reported values available,Positive reported values available,No,No
+Nyamagabe,A,Traditional techniques,87.5,Underground,56.25,Positive reported values available,Positive reported values available,No,Yes
+Nyamagabe,B,Traditional techniques,50.0,Lake / streams,50.0,Positive reported values available,Positive reported values available,No,Yes
+Nyamagabe,C,Traditional techniques,100.0,Lake / streams,70.59,Positive reported values available,Positive reported values available,No,Yes
+Nyamasheke,A,Traditional techniques,42.86,Lake / streams,51.52,Positive reported values available,Positive reported values available,No,Yes
+Nyamasheke,B,Traditional techniques,53.33,Underground,50.0,Positive reported values available,Positive reported values available,No,Yes
+Nyamasheke,C,Traditional techniques,100.0,Lake / streams,80.0,Positive reported values available,Positive reported values available,No,Yes
+Nyanza,A,Flood irrigation,63.64,Underground,56.52,Positive reported values available,Positive reported values available,Yes,No
+Nyanza,B,Flood irrigation,57.14,Underground,63.64,Positive reported values available,Positive reported values available,Yes,No
+Nyanza,C,Traditional techniques,78.95,Underground,63.16,Positive reported values available,Positive reported values available,Yes,No
+Nyarugenge,A,Traditional techniques,66.67,Lake / streams,100.0,Positive reported values available,Positive reported values available,No,Yes
+Nyarugenge,B,No positive reported value,,No positive reported value,,All reported values are zero,All reported values are zero,No,Yes
+Nyarugenge,C,Traditional techniques,100.0,Underground,53.33,Positive reported values available,Positive reported values available,No,Yes
+Nyaruguru,A,Traditional techniques,83.33,Underground,55.56,Positive reported values available,Positive reported values available,No,Yes
+Nyaruguru,B,Traditional techniques,81.82,Underground,75.0,Positive reported values available,Positive reported values available,No,Yes
+Nyaruguru,C,Traditional techniques,100.0,Lake / streams,51.72,Positive reported values available,Positive reported values available,No,Yes
+Rubavu,A,Traditional techniques,100.0,Water treatment,100.0,Positive reported values available,Positive reported values available,Yes,Yes
+Rubavu,B,Surface irrigation,100.0,Underground,100.0,Positive reported values available,Positive reported values available,Yes,Yes
+Rubavu,C,Traditional techniques,100.0,Lake / streams,100.0,Positive reported values available,Positive reported values available,Yes,Yes
+Ruhango,A,Traditional techniques,40.0,Underground,52.38,Positive reported values available,Positive reported values available,Yes,Yes
+Ruhango,B,Surface irrigation,43.75,Lake / streams,50.0,Positive reported values available,Positive reported values available,Yes,Yes
+Ruhango,C,Traditional techniques,93.33,Lake / streams,51.61,Positive reported values available,Positive reported values available,Yes,Yes
+Rulindo,A,Surface irrigation,45.65,Lake / streams,48.0,Positive reported values available,Positive reported values available,Yes,No
+Rulindo,B,Surface irrigation,56.25,Lake / streams,65.0,Positive reported values available,Positive reported values available,Yes,No
+Rulindo,C,Traditional techniques,61.76,Lake / streams,58.82,Positive reported values available,Positive reported values available,Yes,No
+Rusizi,A,Traditional techniques,50.0,Lake / streams,45.45,Positive reported values available,Positive reported values available,No,Yes
+Rusizi,B,Traditional techniques,52.63,Lake / streams,60.0,Positive reported values available,Positive reported values available,No,Yes
+Rusizi,C,Traditional techniques,100.0,Underground,70.73,Positive reported values available,Positive reported values available,No,Yes
+Rutsiro,A,Traditional techniques,50.0,Lake / streams,50.0,Positive reported values available,Positive reported values available,Yes,Yes
+Rutsiro,B,Surface irrigation,50.0,Water treatment,50.0,Positive reported values available,Positive reported values available,Yes,Yes
+Rutsiro,C,Traditional techniques,100.0,Lake / streams,100.0,Positive reported values available,Positive reported values available,Yes,Yes
+Rwamagana,A,Surface irrigation,53.93,Water catchment,40.0,Positive reported values available,Positive reported values available,Yes,Yes
+Rwamagana,B,Surface irrigation,45.07,Lake / streams,39.74,Positive reported values available,Positive reported values available,Yes,Yes
+Rwamagana,C,Traditional techniques,58.33,Lake / streams,75.0,Positive reported values available,Positive reported values available,Yes,Yes

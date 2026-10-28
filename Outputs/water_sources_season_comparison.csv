@@ -1,0 +1,16 @@
+Season,Water_Source,Average_Percentage
+A,Rainwater,1.6
+B,Rainwater,1.67
+C,Rainwater,1.76
+A,Water treatment,8.93
+B,Water treatment,8.64
+C,Water treatment,0.59
+A,Underground,33.11
+B,Underground,38.72
+C,Underground,40.85
+A,Lake / streams,48.16
+B,Lake / streams,42.97
+C,Lake / streams,52.21
+A,Water catchment,8.19
+B,Water catchment,8.0
+C,Water catchment,4.59

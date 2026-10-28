@@ -1,0 +1,13 @@
+Season,Irrigation_Method,Average_Percentage
+A,Surface irrigation,20.4
+B,Surface irrigation,23.88
+A,Flood irrigation,17.23
+B,Flood irrigation,19.99
+A,Drip irrigation,1.95
+B,Drip irrigation,2.04
+A,Sprinkler irrigation,2.65
+B,Sprinkler irrigation,1.31
+A,Pivot irrigation,2.09
+B,Pivot irrigation,1.93
+A,Traditional techniques,55.68
+B,Traditional techniques,50.85

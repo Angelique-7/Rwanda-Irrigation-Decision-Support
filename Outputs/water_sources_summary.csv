@@ -1,0 +1,91 @@
+District,Season,Dominant_reported_category,Available_categories,Expected_categories,Data_completeness_percent,Sum_of_reported_percentages,Has_missing_values,All_available_values_zero
+Nyarugenge,A,Lake / streams,5,5,100.0,100.0,False,False
+Gasabo,A,Lake / streams,5,5,100.0,100.0,False,False
+Kicukiro,A,Lake / streams,5,5,100.0,100.0,False,False
+Nyanza,A,Underground,5,5,100.0,99.99,False,False
+Gisagara,A,Underground,5,5,100.0,100.0,False,False
+Nyaruguru,A,Underground,5,5,100.0,100.0,False,False
+Huye,A,Underground,5,5,100.0,100.0,False,False
+Nyamagabe,A,Underground,5,5,100.0,100.0,False,False
+Ruhango,A,Underground,5,5,100.0,100.0,False,False
+Muhanga,A,Lake / streams,5,5,100.0,100.0,False,False
+Kamonyi,A,Lake / streams,5,5,100.0,100.0,False,False
+Karongi,A,Underground,5,5,100.0,100.01,False,False
+Rutsiro,A,Lake / streams,5,5,100.0,100.0,False,False
+Rubavu,A,Water treatment,5,5,100.0,100.0,False,False
+Nyabihu,A,No reported information,0,5,0.0,0.0,True,False
+Ngororero,A,Underground,5,5,100.0,100.0,False,False
+Rusizi,A,Lake / streams,5,5,100.0,100.0,False,False
+Nyamasheke,A,Lake / streams,5,5,100.0,100.0,False,False
+Rulindo,A,Lake / streams,5,5,100.0,100.0,False,False
+Gakenke,A,Lake / streams,5,5,100.0,100.0,False,False
+Musanze,A,Lake / streams,5,5,100.0,100.0,False,False
+Burera,A,Lake / streams,5,5,100.0,100.0,False,False
+Gicumbi,A,Underground,5,5,100.0,100.0,False,False
+Rwamagana,A,Water catchment,5,5,100.0,99.99,False,False
+Nyagatare,A,Lake / streams,5,5,100.0,100.01,False,False
+Gatsibo,A,Lake / streams,5,5,100.0,99.99,False,False
+Kayonza,A,Water catchment,5,5,100.0,99.99,False,False
+Kirehe,A,Lake / streams,5,5,100.0,100.01,False,False
+Ngoma,A,Underground,5,5,100.0,100.0,False,False
+Bugesera,A,Lake / streams,5,5,100.0,100.0,False,False
+Nyarugenge,B,No positive values reported,5,5,100.0,0.0,False,True
+Gasabo,B,Underground,5,5,100.0,100.0,False,False
+Kicukiro,B,Lake / streams,5,5,100.0,100.0,False,False
+Nyanza,B,Underground,5,5,100.0,100.0,False,False
+Gisagara,B,Lake / streams,5,5,100.0,100.0,False,False
+Nyaruguru,B,Underground,5,5,100.0,100.0,False,False
+Huye,B,Underground,5,5,100.0,100.0,False,False
+Nyamagabe,B,Lake / streams,5,5,100.0,100.0,False,False
+Ruhango,B,Lake / streams,5,5,100.0,100.0,False,False
+Muhanga,B,Underground,5,5,100.0,100.0,False,False
+Kamonyi,B,Underground,5,5,100.0,100.0,False,False
+Karongi,B,Lake / streams,5,5,100.0,99.99,False,False
+Rutsiro,B,Water treatment,5,5,100.0,100.0,False,False
+Rubavu,B,Underground,5,5,100.0,100.0,False,False
+Nyabihu,B,No positive values reported,5,5,100.0,0.0,False,True
+Ngororero,B,Water treatment,5,5,100.0,100.0,False,False
+Rusizi,B,Lake / streams,5,5,100.0,100.0,False,False
+Nyamasheke,B,Underground,5,5,100.0,100.0,False,False
+Rulindo,B,Lake / streams,5,5,100.0,100.0,False,False
+Gakenke,B,Lake / streams,5,5,100.0,100.0,False,False
+Musanze,B,Underground,5,5,100.0,100.0,False,False
+Burera,B,Lake / streams,5,5,100.0,100.0,False,False
+Gicumbi,B,Underground,5,5,100.0,100.0,False,False
+Rwamagana,B,Lake / streams,5,5,100.0,100.0,False,False
+Nyagatare,B,Lake / streams,5,5,100.0,100.01,False,False
+Gatsibo,B,Lake / streams,5,5,100.0,100.0,False,False
+Kayonza,B,Water catchment,5,5,100.0,100.0,False,False
+Kirehe,B,Lake / streams,5,5,100.0,100.01,False,False
+Ngoma,B,Underground,5,5,100.0,100.01,False,False
+Bugesera,B,Lake / streams,5,5,100.0,100.0,False,False
+Nyarugenge,C,Underground,5,5,100.0,100.0,False,False
+Gasabo,C,Lake / streams,5,5,100.0,100.0,False,False
+Kicukiro,C,Lake / streams,5,5,100.0,100.0,False,False
+Nyanza,C,Underground,5,5,100.0,100.0,False,False
+Gisagara,C,Underground,5,5,100.0,100.0,False,False
+Nyaruguru,C,Lake / streams,5,5,100.0,100.0,False,False
+Huye,C,Underground,5,5,100.0,100.0,False,False
+Nyamagabe,C,Lake / streams,5,5,100.0,100.0,False,False
+Ruhango,C,Lake / streams,5,5,100.0,100.0,False,False
+Muhanga,C,Lake / streams,5,5,100.0,100.0,False,False
+Kamonyi,C,Underground,5,5,100.0,100.0,False,False
+Karongi,C,Lake / streams,5,5,100.0,100.0,False,False
+Rutsiro,C,Lake / streams,5,5,100.0,100.0,False,False
+Rubavu,C,Lake / streams,5,5,100.0,100.0,False,False
+Nyabihu,C,Underground,5,5,100.0,100.0,False,False
+Ngororero,C,Underground,5,5,100.0,100.0,False,False
+Rusizi,C,Underground,5,5,100.0,100.0,False,False
+Nyamasheke,C,Lake / streams,5,5,100.0,100.0,False,False
+Rulindo,C,Lake / streams,5,5,100.0,99.99,False,False
+Gakenke,C,Underground,5,5,100.0,100.0,False,False
+Musanze,C,Lake / streams,5,5,100.0,100.0,False,False
+Burera,C,Underground,5,5,100.0,100.0,False,False
+Gicumbi,C,Underground,5,5,100.0,100.0,False,False
+Rwamagana,C,Lake / streams,5,5,100.0,100.0,False,False
+Nyagatare,C,Lake / streams,5,5,100.0,100.01,False,False
+Gatsibo,C,Underground,5,5,100.0,100.0,False,False
+Kayonza,C,Lake / streams,5,5,100.0,100.0,False,False
+Kirehe,C,Lake / streams,5,5,100.0,100.01,False,False
+Ngoma,C,Underground,5,5,100.0,100.0,False,False
+Bugesera,C,Lake / streams,5,5,100.0,100.0,False,False
