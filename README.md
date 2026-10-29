@@ -43,7 +43,7 @@ The app is a **planning support tool**. It shows reported patterns and offers ru
 | Page | What you can do |
 | --- | --- |
 | **Home** | Get an overview of the platform, key statistics, and links to each tool. |
-| **District Explorer** | Select a district and season to compare irrigation methods and water sources using interactive bar charts, donut charts, and breakdown tables. Review data-quality notes for the selected record. |
+| **District Explorer** | Select any district and choose a single season or **All seasons** to compare irrigation methods and water sources using interactive charts and breakdown tables. Review data-quality notes across the selected scope. |
 | **Intervention Planner** | View the dominant irrigation method and primary water source, generate a rule-based recommendation, build a custom strategy, and work through an eight-point feasibility checklist. |
 | **About the Data** | Understand the NISR data source, cleaning and analysis methods, limitations, usage guidance, and technical details. |
 
@@ -51,7 +51,7 @@ Additional interface features:
 
 - Consistent branded header and navigation bar on every page.
 - Professional green theme with an agriculture-focused hero image.
-- Sidebar filters for district and season.
+- On-page district and season-scope filters, including an All seasons view, plus a district quick picker on the Home page.
 - Responsive layout for desktop, tablet, and mobile.
 - Shared footer with navigation and data credits.
 - Material icons throughout instead of emoji.
@@ -174,9 +174,9 @@ No secrets or API keys are required. The app uses only the bundled CSV files and
 ## How to use the app
 
 1. **Start on Home.** Review the overview, quick statistics, and platform capabilities.
-2. **Open District Explorer.** Choose a district and agricultural season in the sidebar. Review the overview metrics, the irrigation-method bar chart, the water-source donut chart, and the breakdown tables.
+2. **Open District Explorer.** Choose any district and a season scope at the top of the page. **All seasons** shows every reported season for that district in grouped charts and breakdown tables; selecting a specific season shows the detailed single-season view. You can also pick a district from the Home page and jump straight to its profile.
 3. **Check data quality.** Read the notes for your selection. If data is limited, especially for Season C, compare with another season and interpret cautiously.
-4. **Open Intervention Planner.** Select the same or a different district and season. Review the current situation. Choose either the rule-based recommendation or build a custom strategy.
+4. **Open Intervention Planner.** Select the same or a different district and season scope. Review the current situation. Choose either the rule-based recommendation or build a custom strategy.
 5. **Complete the feasibility checklist.** Confirm water availability, climate data, crop requirements, economic viability, technical capacity, regulatory compliance, community acceptance, and environmental impact before implementation.
 6. **Read About the Data.** Use the methodology and limitations sections when presenting or defending a decision.
 

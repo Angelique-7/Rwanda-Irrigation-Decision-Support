@@ -18,7 +18,6 @@ from ui import (
     render_footer,
     render_header,
     render_page_heading,
-    render_sidebar_credit,
     svg_icon,
 )
 
@@ -88,28 +87,50 @@ if not METHODS_FILE.exists() or not SOURCES_FILE.exists():
 
 methods, sources, method_columns, source_columns = load_data()
 
-st.sidebar.markdown("### :material/location_on: Planning parameters")
 method_districts = set(methods["District"].dropna())
 source_districts = set(sources["District"].dropna())
 districts = sorted(method_districts & source_districts)
 available_seasons = sorted(set(methods["Season"].dropna()) & set(sources["Season"].dropna()))
 
-selected_district = st.sidebar.selectbox("Select district", districts)
-selected_season = st.sidebar.selectbox("Select agricultural season", available_seasons)
-render_sidebar_credit()
+st.markdown("## Planning parameters")
+st.markdown(
+    "<p class='section-note'>Pick any district to build recommendations for it.</p>",
+    unsafe_allow_html=True,
+)
+filter_col1, filter_col2 = st.columns([1.2, 1])
+with filter_col1:
+    selected_district = st.selectbox("Select district", districts, key="district_filter")
+with filter_col2:
+    scope_options = ["All seasons"] + available_seasons
+    selected_scope = st.selectbox(
+        "Select season scope",
+        scope_options,
+        key="season_scope",
+        help="Choose 'All seasons' to base the plan on the district's combined averages.",
+    )
 
-method_record = methods[
-    (methods["District"] == selected_district) & (methods["Season"] == selected_season)
-]
-source_record = sources[
-    (sources["District"] == selected_district) & (sources["Season"] == selected_season)
-]
+district_methods = methods[methods["District"] == selected_district]
+district_sources = sources[sources["District"] == selected_district]
 
+if selected_scope == "All seasons":
+    method_records = district_methods
+    source_records = district_sources
+    scope_label = "All seasons (combined)"
+else:
+    method_records = district_methods[district_methods["Season"] == selected_scope]
+    source_records = district_sources[district_sources["Season"] == selected_scope]
+    scope_label = f"Season {selected_scope}"
+
+seasons_used = sorted(method_records["Season"].dropna().unique())
 method_vals = (
-    method_record.iloc[0][method_columns].dropna() if not method_record.empty else pd.Series()
+    method_records[method_columns].mean(skipna=True).dropna()
+    if not method_records.empty
+    else pd.Series(dtype=float)
 )
 source_vals = (
-    source_record.iloc[0][source_columns].dropna() if not source_record.empty else pd.Series()
+    source_records[source_columns].mean(skipna=True).dropna()
+    if not source_records.empty
+    else pd.Series(dtype=float)
 )
 
 st.markdown("## Current situation assessment")
@@ -125,7 +146,7 @@ with col1:
                 <h4>Dominant irrigation method</h4>
                 <p><strong style="color:#14532d;font-size:1.05rem;">{dom_method}</strong>
                 &middot; {method_vals.max():.2f}% of reported practices</p>
-                <p style="margin-top:0.5rem;">{len(method_vals)} methods reported in this selection.</p>
+                <p style="margin-top:0.5rem;">Scope: {scope_label} &middot; {len(seasons_used)} season(s) assessed.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -143,7 +164,7 @@ with col2:
                 <h4>Primary water source</h4>
                 <p><strong style="color:#14532d;font-size:1.05rem;">{dom_source}</strong>
                 &middot; {source_vals.max():.2f}% of reported sources</p>
-                <p style="margin-top:0.5rem;">{len(source_vals)} sources reported in this selection.</p>
+                <p style="margin-top:0.5rem;">Scope: {scope_label} &middot; {len(seasons_used)} season(s) assessed.</p>
             </div>
             """,
             unsafe_allow_html=True,
@@ -200,7 +221,7 @@ if planning_mode == PLANNING_MODES[0]:
                     <span class="feature-icon">{svg_icon("droplet", 21)}</span>
                     <h4>Recommended irrigation improvement</h4>
                     <p style="color:#14532d;font-weight:600;">{rec_irrigation}</p>
-                    <p style="margin-top:0.5rem;">Based on the dominant irrigation method in this district.</p>
+                    <p style="margin-top:0.5rem;">Based on the dominant irrigation method for {scope_label}.</p>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -213,13 +234,13 @@ if planning_mode == PLANNING_MODES[0]:
                     <span class="feature-icon">{svg_icon("database", 21)}</span>
                     <h4>Recommended water storage solution</h4>
                     <p style="color:#14532d;font-weight:600;">{rec_storage}</p>
-                    <p style="margin-top:0.5rem;">Based on the primary water source in this district.</p>
+                    <p style="margin-top:0.5rem;">Based on the primary water source for {scope_label}.</p>
                 </div>
                 """,
                 unsafe_allow_html=True,
             )
 
-        st.success("Recommendations generated from the reported irrigation patterns for this selection.")
+        st.success(f"Recommendations generated from the reported irrigation patterns for {scope_label}.")
     else:
         st.warning("Insufficient data for automated recommendations.")
 
@@ -257,7 +278,7 @@ else:
         <div class="panel-card">
             <h4>Your custom strategy</h4>
             <p style="margin-bottom:0.4rem;"><strong>District:</strong> {selected_district}
-            &nbsp;&middot;&nbsp; <strong>Season:</strong> {selected_season}</p>
+            &nbsp;&middot;&nbsp; <strong>Scope:</strong> {scope_label}</p>
             <p style="margin-bottom:0.4rem;"><strong>Irrigation:</strong> {selected_irrigation}</p>
             <p><strong>Water storage:</strong> {selected_storage}</p>
         </div>

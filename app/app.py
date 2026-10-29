@@ -223,7 +223,7 @@ except Exception as error:
 # 5. DISTRICT AND SEASON SELECTION
 # ============================================================
 
-st.header("📍 Explore a district")
+st.header(" Explore a district")
 
 method_districts = set(methods["District"].dropna())
 source_districts = set(sources["District"].dropna())

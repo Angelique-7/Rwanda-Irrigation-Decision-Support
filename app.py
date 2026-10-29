@@ -85,6 +85,21 @@ if methods is not None:
 else:
     st.warning("Cleaned data files were not found in the Outputs folder. Add them to populate the dashboard.")
 
+if methods is not None:
+    st.markdown("## Choose a district")
+    district_col, button_col = st.columns([2, 1])
+    with district_col:
+        quick_district = st.selectbox(
+            "Which district do you want to explore?",
+            districts,
+            key="home_district",
+        )
+    with button_col:
+        st.markdown("<div style='height:1.75rem'></div>", unsafe_allow_html=True)
+        if st.button("View district details", type="primary", use_container_width=True):
+            st.session_state["district_filter"] = quick_district
+            st.switch_page("pages/1_District_Explorer.py")
+
 st.markdown("<div style='height:0.75rem'></div>", unsafe_allow_html=True)
 
 mission_col, capability_col = st.columns([1, 1.15], gap="large")
