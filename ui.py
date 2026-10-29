@@ -88,8 +88,11 @@ def apply_theme() -> None:
                 display: none !important;
             }
 
-            .block-container {
-                max-width: 1180px;
+            .block-container,
+            [data-testid="stMainBlockContainer"] {
+                max-width: 1240px;
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
                 padding-top: 1.25rem;
                 padding-bottom: 2rem;
             }
